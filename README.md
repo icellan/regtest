@@ -24,6 +24,12 @@ to start all the containers. This will start the bitcoin nodes, and expose RPC o
 
 ### Connect nodes to each other
 
+```shell
+./connect.sh
+```
+
+or, manually:
+
 ```
 ./regtest1.sh addnode "node2:18333" add
 ./regtest1.sh addnode "node3:18333" add
